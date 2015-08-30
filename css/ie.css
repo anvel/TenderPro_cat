@@ -1,0 +1,45 @@
+.pageDescription {
+	
+	background-image: url('../images/description_bg_ie.jpg') !important;
+	
+}
+
+.whyNeed .wn_item1 a{
+	background-image: url('../images/wn_icon1.png');
+}
+
+.whyNeed .wn_item2 a{
+	background-image: url('../images/wn_icon2.png');
+}
+
+.whyNeed .wn_item3 a{
+	background-image: url('../images/wn_icon3.png');
+}
+
+.whyNeed .wn_item4 a{
+	background-image: url('../images/wn_icon4.png');
+}
+
+.whyNeed li:hover a {
+	background-color: #e6e6e6;
+}
+
+.benefits .bn_item1 a{
+	background-image: url('../images/bn_icon1.png');
+}
+
+.benefits .bn_item2 a{
+	background-image: url('../images/bn_icon2.png');
+}
+
+.benefits .bn_item3 a{
+	background-image: url('../images/bn_icon3.png');
+}
+
+.benefits .bn_item4 a{
+	background-image: url('../images/bn_icon4.png');
+}
+
+.benefits li:hover a {
+	background-color: #e6e6e6;
+}
