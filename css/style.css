@@ -88,15 +88,13 @@ h2 {
 }	
 
 /* Why it is needed */
+.whyNeed {
+	padding-bottom: 20px;
+}
 
 .whyNeed li {
 	display: block;
-}
-
-.whyNeed li a {
-	display: block;
 	text-align: center;
-	height: 200px;
 	background-position: top center;
 	background-repeat: no-repeat;
 	padding-top: 140px;
@@ -106,46 +104,21 @@ h2 {
 	color: black;
 }
 
-.whyNeed li:nth-child(1) a {
+.whyNeed li:nth-child(1) {
 	background-image: url('../images/wn_icon1.png');
 }
 
-.whyNeed li:nth-child(2) a {
+.whyNeed li:nth-child(2) {
 	background-image: url('../images/wn_icon2.png');
 }
 
-.whyNeed li:nth-child(3) a {
+.whyNeed li:nth-child(3) {
 	background-image: url('../images/wn_icon3.png');
 }
 
-.whyNeed li:nth-child(4) a {
+.whyNeed li:nth-child(4) {
 	background-image: url('../images/wn_icon4.png');
 }
-
-.whyNeed li:nth-child(1):hover a {
-	background-image: 
-		url('../images/wn_icon1.png'),
-		url('../images/bn_icon_hover.png');
-}
-
-.whyNeed li:nth-child(2):hover a {
-	background-image: 
-		url('../images/wn_icon2.png'),
-		url('../images/bn_icon_hover.png');
-}
-
-.whyNeed li:nth-child(3):hover a {
-	background-image: 
-		url('../images/wn_icon3.png'),
-		url('../images/bn_icon_hover.png');
-}
-
-.whyNeed li:nth-child(4):hover a {
-	background-image: 
-		url('../images/wn_icon4.png'),
-		url('../images/bn_icon_hover.png');
-}
-
 
 /* Services */
 
@@ -196,7 +169,7 @@ h2 {
 	font-size: 18px;
 	font-weight: bold;
 	border:2px solid #ed1c24;
-	border-radius: 8px;
+	border-radius: 8px 8px 8px 8px;
 	color:#ed1c24;
 }
 
@@ -236,9 +209,9 @@ h2 {
 	font-weight: bold;
 	color: #454545;
 	border-radius: 14px 14px 0px 0px;
+	
 	padding: 5px;
 }
-
 
 
 .dataProcessing table th,
@@ -288,53 +261,30 @@ h2 {
 
 /* benefits */
 
-.benefits li {
-	display: block;
+.benefits {
+	padding-bottom: 20px;
 }
 
-.benefits li a{
+.benefits li {
 	display: block;
 	text-align: center;
-	height: 200px;
 	background-position: top center;
 	background-repeat: no-repeat;
 	padding-top: 140px;
 }
 
-.benefits a:link, .benefits a:visited {
-	color: black;
-}
-
-.benefits li:nth-child(1) a {
+.benefits li:nth-child(1) {
 	background-image: url('../images/bn_icon1.png');
 }
 
-.benefits li:nth-child(2) a {
+.benefits li:nth-child(2) {
 	background-image: url('../images/bn_icon2.png');
 }
 
-.benefits li:nth-child(3) a {
+.benefits li:nth-child(3) {
 	background-image: url('../images/bn_icon3.png');
 }
 
-
-.benefits li:nth-child(1):hover a {
-	background-image: 
-	url('../images/bn_icon1.png'), 
-	url('../images/bn_icon_hover.png');
-}
-
-.benefits li:nth-child(2):hover a {
-	background-image: 
-	url('../images/bn_icon2.png'), 
-	url('../images/bn_icon_hover.png');
-}
-
-.benefits li:nth-child(3):hover a {
-	background-image: 
-	url('../images/bn_icon3.png'), 
-	url('../images/bn_icon_hover.png');
-}
 
 /* Projects */
 
@@ -363,8 +313,12 @@ h2 {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
-	margin: 20px 15px;
+	margin: 20px 15px 20px 0;
  
+}
+
+.navProjects ul li:last-child {
+	margin-right: 0;
 }
 
 .navProjects ul li a {
@@ -380,22 +334,22 @@ h2 {
 
 
 a.mosenergo { 
-	width:120px;
+	width: 200px;
 	background: url('../images/icon_mosenergo.png') no-repeat;
 }
 
 a.ogk2 {
-	width: 150px;
+	width: 135px;
 	background: url('../images/icon_ogk2.png') no-repeat;
 }
 
 a.ant {
-	width: 150px;
+	width: 140px;
 	background: url('../images/icon_ant.png') no-repeat;
 }
 
 a.sunprod {
-	width: 80px;
+	width: 75px;
 	background: url('../images/icon_sunprod.png') no-repeat;
 }
 
@@ -456,7 +410,10 @@ a.sunprod {
 }
 
 .contact img {
+	
 	border-radius: 10px;
+	behavior: url("../lib/PIE.htc");
+
 }
 
 .contact h3 {
@@ -546,6 +503,8 @@ footer p {
 
 }
 
+
+
 @media screen and (max-width: 570px) {
 	.screenshots img {
 		width: 100%;
@@ -558,3 +517,4 @@ footer p {
 		text-align:left !important;
 	}
 }
+

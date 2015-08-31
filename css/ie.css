@@ -4,42 +4,44 @@
 	
 }
 
-.whyNeed .wn_item1 a{
+.whyNeed .wn_item1 {
 	background-image: url('../images/wn_icon1.png');
 }
 
-.whyNeed .wn_item2 a{
+.whyNeed .wn_item2 {
 	background-image: url('../images/wn_icon2.png');
 }
 
-.whyNeed .wn_item3 a{
+.whyNeed .wn_item3 {
 	background-image: url('../images/wn_icon3.png');
 }
 
-.whyNeed .wn_item4 a{
+.whyNeed .wn_item4 {
 	background-image: url('../images/wn_icon4.png');
 }
 
-.whyNeed li:hover a {
-	background-color: #e6e6e6;
-}
-
-.benefits .bn_item1 a{
+.benefits .bn_item1 {
 	background-image: url('../images/bn_icon1.png');
 }
 
-.benefits .bn_item2 a{
+.benefits .bn_item2 {
 	background-image: url('../images/bn_icon2.png');
 }
 
-.benefits .bn_item3 a{
+.benefits .bn_item3 {
 	background-image: url('../images/bn_icon3.png');
 }
 
-.benefits .bn_item4 a{
+.benefits .bn_item4 {
 	background-image: url('../images/bn_icon4.png');
 }
-
-.benefits li:hover a {
-	background-color: #e6e6e6;
+.results ol li:before {
+	border:none;
+	width: 40px;
+	height: 40px;
+	padding: 8px 0;
+	text-align: center;
+	background: url('../images/num_border.png');
+	
 }
+
