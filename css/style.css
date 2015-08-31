@@ -363,13 +363,12 @@ h2 {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
-	margin: 20px;
+	margin: 20px 15px;
  
 }
 
 .navProjects ul li a {
 	text-indent: -9999px;
-	width: 210px;
 	height: 106px;
 	display: inline-block;
 	background-position: left top;
@@ -381,20 +380,22 @@ h2 {
 
 
 a.mosenergo { 
+	width:120px;
 	background: url('../images/icon_mosenergo.png') no-repeat;
 }
 
 a.ogk2 {
-
+	width: 150px;
 	background: url('../images/icon_ogk2.png') no-repeat;
 }
 
 a.ant {
-
+	width: 150px;
 	background: url('../images/icon_ant.png') no-repeat;
 }
 
 a.sunprod {
+	width: 80px;
 	background: url('../images/icon_sunprod.png') no-repeat;
 }
 
